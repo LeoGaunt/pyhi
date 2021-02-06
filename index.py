@@ -41,3 +41,4 @@ with open('info.json') as f:
 
 system('clear')
 ascii_banner = pyfiglet.figlet_format("Hello "+ name)
+print(ascii_banner)
